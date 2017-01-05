@@ -17,3 +17,7 @@ FOUNDATION_EXPORT const unsigned char APNumberPadiOSVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <APNumberPadiOS/PublicHeader.h>
 
 
+#import <APNumberPadiOS/APNumberPad.h>
+#import <APNumberPadiOS/APNumberButton.h>
+#import <APNumberPadiOS/APNumberPadDefaultStyle.h>
+#import <APNumberPadiOS/NSBundle+APNumberPad.h>
