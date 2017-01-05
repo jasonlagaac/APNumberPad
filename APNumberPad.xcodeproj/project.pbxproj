@@ -28,14 +28,9 @@
 		B2DD031B197578030051DD71 /* APBluePadStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DD031A197578030051DD71 /* APBluePadStyle.m */; };
 		D8F707361D5A010800C63B6A /* NSBundle+APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F707351D5A010800C63B6A /* NSBundle+APNumberPad.m */; };
 		FD0186801E1D6774007084BE /* APNumberPadiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FD01867E1E1D6774007084BE /* APNumberPadiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD0186841E1D677C007084BE /* APNumberButton.h in Sources */ = {isa = PBXBuildFile; fileRef = B234679B1974A61800FE3F7A /* APNumberButton.h */; };
 		FD0186851E1D677C007084BE /* APNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B234679C1974A61800FE3F7A /* APNumberButton.m */; };
-		FD0186861E1D677C007084BE /* APNumberPad.h in Sources */ = {isa = PBXBuildFile; fileRef = B234679D1974A61800FE3F7A /* APNumberPad.h */; };
 		FD0186871E1D677C007084BE /* APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B234679E1974A61800FE3F7A /* APNumberPad.m */; };
-		FD0186881E1D677C007084BE /* APNumberPadDefaultStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = B234679F1974A61800FE3F7A /* APNumberPadDefaultStyle.h */; };
 		FD0186891E1D677C007084BE /* APNumberPadDefaultStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B23467A01974A61800FE3F7A /* APNumberPadDefaultStyle.m */; };
-		FD01868A1E1D677C007084BE /* APNumberPadStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F2A55197DA26500ADEB96 /* APNumberPadStyle.h */; };
-		FD01868B1E1D677C007084BE /* NSBundle+APNumberPad.h in Sources */ = {isa = PBXBuildFile; fileRef = D8F707341D5A010800C63B6A /* NSBundle+APNumberPad.h */; };
 		FD01868C1E1D677C007084BE /* NSBundle+APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F707351D5A010800C63B6A /* NSBundle+APNumberPad.m */; };
 		FD01868D1E1D678A007084BE /* APNumberPad.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2ACD620819261D53005E5DA5 /* APNumberPad.bundle */; };
 		FD01868E1E1D67A2007084BE /* APNumberButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B234679B1974A61800FE3F7A /* APNumberButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -405,14 +400,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0186841E1D677C007084BE /* APNumberButton.h in Sources */,
 				FD0186851E1D677C007084BE /* APNumberButton.m in Sources */,
-				FD0186861E1D677C007084BE /* APNumberPad.h in Sources */,
 				FD0186871E1D677C007084BE /* APNumberPad.m in Sources */,
-				FD0186881E1D677C007084BE /* APNumberPadDefaultStyle.h in Sources */,
 				FD0186891E1D677C007084BE /* APNumberPadDefaultStyle.m in Sources */,
-				FD01868A1E1D677C007084BE /* APNumberPadStyle.h in Sources */,
-				FD01868B1E1D677C007084BE /* NSBundle+APNumberPad.h in Sources */,
 				FD01868C1E1D677C007084BE /* NSBundle+APNumberPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,6 +676,7 @@
 				FD0186821E1D6774007084BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
